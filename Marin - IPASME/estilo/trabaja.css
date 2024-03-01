@@ -1,0 +1,147 @@
+*{
+ margin: 0%;
+ padding:0%;
+ border: 0%;
+ font-family: sans-serif;
+}
+
+header {
+background: rgb(57, 49, 133);
+}
+
+.menu ul{
+	list-style: none;
+}
+
+.list-nav li {
+	display: inline-block;
+    position: relative;
+    padding: 15px
+}
+
+.list-nav li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+}
+
+.portada img {
+	width: 99vw;
+	padding:0%;
+	margin:0% ;
+}
+
+img {
+  max-width: 100%
+}
+
+main {
+	margin: 35px;
+	padding: 35px;
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+
+h1 {
+	text-align: justify;
+	font-size: 40px;
+}
+
+h3 {
+	text-align: justify;
+	font-size: 15px;
+}
+
+table {
+	width: 100%;
+	border: 2px solid rgb(59, 49, 133);
+}
+
+tr{
+	border: 2px solid rgb(59, 49, 133);
+}
+
+td {
+	width: 25%;
+	text-align: left;
+	vertical-align: top;
+
+}
+
+input {
+	border: none;
+	background: rgb(255, 204, 153);
+}
+
+.telefono {
+	border: none;
+}
+
+footer {
+	text-align: center;
+}
+
+button {
+	margin: 10px;
+	padding: 10px;
+
+}
+
+.vivo > td > input{
+	text-align: center;
+	width: 10%;
+
+}
+
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.25rem;
+
+  }
+
+  div {
+    flex-basis: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+@media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
+
+    div {
+      flex-basis: 33%;
+    }
+  }
+
+  .formulario {
+  	flex: 1;
+  	min-width: 400pxpx;
+
+  }
+
+  .formulario:firts-child {
+  	flex: 2;
+  	padding: 25px;
+  	margin: 20px;
+  	margin-bottom: 0px;
+  }
+
+  .formulario div {
+  	padding: 25px;
+  	margin: 20px;
+  }
+
